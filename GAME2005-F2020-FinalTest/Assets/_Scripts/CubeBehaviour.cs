@@ -59,6 +59,7 @@ public class CubeBehaviour : MonoBehaviour
     public bool isColliding;
     public bool debug;
     public List<Contact> contacts;
+    public List<SphereProperties> sphereContacts;
 
     private MeshFilter meshFilter;
     public Bounds bounds;
